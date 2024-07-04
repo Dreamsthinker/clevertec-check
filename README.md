@@ -11,7 +11,7 @@ This console application generates a receipt for a store based on input paramete
 
 Run the application with the following command format:
 
-java -cp src ./src/main/java/ru/clevertec/check/CheckRunner.java <items> [discountCard=<card_number>] balanceDebitCard=<balance>
+```java -cp src ./src/main/java/ru/clevertec/check/CheckRunner.java <items> [discountCard=<card_number>] balanceDebitCard=<balance>```
 
 Where:
 - `<items>` are in the format `id-quantity` (e.g., `3-1 2-5 5-1`)
@@ -20,7 +20,7 @@ Where:
 
 Example:
 
-java -cp src ./src/main/java/ru/clevertec/check/CheckRunner.java 3-1 2-5 5-1 discountCard=1111 balanceDebitCard=100
+```java -cp src ./src/main/java/ru/clevertec/check/CheckRunner.java 3-1 2-5 5-1 discountCard=1111 balanceDebitCard=100```
 
 The application will generate a `result.csv` file in the project root directory and display the receipt in the console.
 
